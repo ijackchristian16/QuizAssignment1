@@ -1,0 +1,24 @@
+<!-- res/values-fr/strings.xml -->
+<resources>
+    <string name="app_name">Quiz_Assignment</string>
+    <string name="text_false">Faux</string>
+    <string name="text_true">Vrai</string>
+    <string name="get_the_average">Obtenir la moyenne</string>
+    <string name="select_the_number_of_questions">Sélectionner le nombre de questions</string>
+    <string name="reset_the_saved_results">Réinitialiser les résultats sauvegardés</string>
+    <string name="question1">Cinq sur huit, c\'est une meilleure chance que trois sur cinq.</string>
+    <string name="question2">La somme des angles autour d\'un point dans un cercle est de 350.</string>
+    <string name="question3">Le périmètre d\'un cercle est connu sous le nom de diamètre.</string>
+    <string name="question4">7000mm = 7km</string>
+    <string name="question5">15 % de 60 équivaut à 9.</string>
+    <string name="question6"><![CDATA[2.68 > 2.8]]></string>
+    <string name="question7">Les angles intérieurs d\'un triangle se totalisent toujours à 180.</string>
+    <string name="questiin8">Une forme convexe courbe vers l\'extérieur</string>
+    <string name="question9">Le produit de deux nombres négatifs est un nombre positif.</string>
+    <string name="question10">Pi peut être écrit sous forme de fraction.</string>
+    <string name="enter_number_of_questions">Entrez le nombre de questions</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="result">Résultat</string>
+    <string name="save">Enregistrer</string>
+</resources>

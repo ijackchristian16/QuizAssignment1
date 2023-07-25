@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="question"
+            type="com.example.quiz.QuestionModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@color/red"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:textSize="16sp"
+                android:id="@+id/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@{question.question}"
+                android:textColor="@color/white"
+                tools:text="Toronto is Captial of Canada" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/layoutQuestion">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/trueButton"
+                android:layout_width="100dp"
+                android:background="@color/purple_700"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/text_true" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/falseButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700"
+                android:textColor="@color/white"
+                android:layout_marginStart="100dp"
+                android:text="@string/text_false" />
+        </LinearLayout>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:max="100"
+            android:progress="0"
+            app:layout_constraintTop_toBottomOf="@+id/layoutButtons" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

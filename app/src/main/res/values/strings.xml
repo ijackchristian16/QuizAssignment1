@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quiz_Assignment</string>
+    <string name="text_false">False</string>
+    <string name="text_true">True</string>
+    <string name="get_the_average">Get The average</string>
+    <string name="select_the_number_of_questions">Select the number of questions</string>
+    <string name="reset_the_saved_results">Reset the saved results</string>
+    <string name="question1">Five out of eight are better odds than three out of five.</string>
+    <string name="question2">The sum of angles around a point in a circle is 350.</string>
+    <string name="question3">The perimeter of a circle is known as the diameter.</string>
+    <string name="question4">7000mm = 7km</string>
+    <string name="question5">15% of 60 equals 9.</string>
+    <string name="question6"><![CDATA[2.68 > 2.8]]></string>
+    <string name="question7">The interior angles of a triangle will always add up to 180.</string>
+    <string name="questiin8">A convex shape curves outwards</string>
+    <string name="question9">The product of two negative numbers is a positive.</string>
+    <string name="question10">Pi can be written as a fraction.</string>
+    <string name="enter_number_of_questions">Enter Number of Questions</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="result">Result</string>
+    <string name="save">Save</string>
+</resources>
